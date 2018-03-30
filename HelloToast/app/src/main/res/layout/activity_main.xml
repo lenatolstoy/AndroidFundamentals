@@ -13,7 +13,7 @@
 
     <Button
         android:id="@+id/button_toast"
-        android:layout_width="@dimen/test"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_label_toast"
         android:background="@color/colorPrimary"

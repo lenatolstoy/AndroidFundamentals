@@ -20,14 +20,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void showToast(View view) {
         Context ctxt = getApplicationContext();
-        Toast toast = Toast.makeText(ctxt, getString(R.string.toast_message), Toast.LENGTH_LONG)
+        Toast toast = Toast.makeText(ctxt, getString(R.string.toast_message), Toast.LENGTH_LONG);
         toast.show();
     }
 
     public void countUp(View view) {
         mCount++;
-        if (mCountShow!=null) {
+        if (mCountShow!=null)
             mCountShow.setText(Integer.toString(mCount));
-        }
     }
 }
